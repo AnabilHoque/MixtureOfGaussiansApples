@@ -1,5 +1,5 @@
 # Implementation of Mixture of Gaussians to distinguish between Apple vs Non-Apple pixels.
-- Part A: Load images in the apples folder, and defines some utility functions.
+- Part A: We load the images found in the apples folder, and we define some utility functions.
 - Part B: We use mixtures of Gaussians to distinguish apple vs. non-apple pixels, using red, green, and blue as our dimensions.
 - Part C: We show each pixel's posterior probability for being an "apple" for some test images found in the folder testApples.
 - Part D: For the test image with a ground-truth mask, we quantify and report our result. This is done by applying a range of thresholds to the posterior to produce sets of {True Positives
